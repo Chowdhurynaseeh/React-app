@@ -1,13 +1,16 @@
 import React from 'react';
 
+
 const SingleComponent = (props) => {
     console.log(props)
     return (
+        
         <div className='comment'>
+            
             <a href="/" className='avatar'>
                 <img src={ props.propic } alt="profile picture"/>
             </a>
-                
+              
             <div className='content'>
                 <a href="/" className="author">
                     { props.name }
